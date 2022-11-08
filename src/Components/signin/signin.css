@@ -1,0 +1,69 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.cont1{
+  width: 100%;
+  /* height: 700px; */
+  background: hsl(255, 14%, 95%);
+  margin-top: 150px;
+  margin-top:20px; 
+  /* background-color: red; */
+} 
+.form-horizontal{
+  width: 500px;
+  height: 600px; 
+  text-align:start ;
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  gap: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  padding-top: 80px;
+}
+
+.links {
+  text-align: center;
+  color: green;
+}
+a {
+  color: green;
+}
+
+.form-signin-title {
+  text-align: center;
+  /* background-color: red; */
+  width: 350px;
+}
+
+.inputbutton{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 15%;
+  padding-top: 60px;
+  gap: 40px;
+}
+
+.inputbutton input{
+  height: 50px;
+  width: 340px;
+  border-radius: 20px;
+  text-align: start;
+  font-size: 1em;
+}
+
+.btn{
+  width: 347px;
+  height:50px;
+  border-radius: 20px;
+  font-size: 1em;
+}
